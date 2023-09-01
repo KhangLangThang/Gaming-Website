@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>My Game</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="#" class="logo">GameON</a>
+      <ul class="nav">
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#group">Group</a></li>
+        <li><a href="#contactBx">Contact</a></li>
+      </ul>
+      <div class="action">
+        <div class="Box_Search">
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <input type="text" placeholder="Search Games" />
+        </div>
+      </div>
+      <div class="menu" onclick="menuBar();">
+        <i class="fa-solid fa-bars" style="color: #fcfcfc"></i>
+      </div>
+    </header>
+    <!-- Home -->
+    <div class="home_banner" id="banner">
+      <div class="banner">
+        <div class="content_banner">
+          <h1>GameON</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+            voluptas quas accusantium amet tempora dolor aut sequi. Doloremque
+            ab, sed optio quasi mollitia maiores delectus consequuntur placeat
+            deserunt, fugiat at.
+          </p>
+          <a class="button" href="#">Join Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- About Us -->
+    <div class="about anime_sroll" id="about">
+      <div class="content_about">
+        <h1>About Us</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+          exercitationem nobis explicabo tempore ex aspernatur itaque adipisci
+          odit, quaerat, hic molestias aut nesciunt ad deleniti consequuntur id
+          repellendus facere aliquid. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Suscipit neque non iusto voluptatibus. Culpa, a est
+          consectetur rerum neque similique dolorum, sed odit reprehenderit
+          blanditiis explicabo, expedita officia quisquam enim. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Repellendus magni
+          voluptatum dolorum quasi unde! Ex minima accusamus quam alias esse
+          dolore eos, perferendis minus suscipit. Eos dolores libero labore
+          optio! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Magnam excepturi nemo voluptate beatae culpa neque, quos quisquam
+          maiores corrupti assumenda, fugit quod odit laudantium iste amet,
+          dolorem minima pariatur ipsum.
+        </p>
+        <a class="button" href="#">Read More</a>
+      </div>
+      <img src="./img/pngwing.com.png" alt="" />
+    </div>
+    <!-- Games -->
+    <div class="games anime_sroll" id="games">
+      <h2>Popular Game</h2>
+      <ul>
+        <li class="list active" datafill="all">All</li>
+        <li class="list" datafill="pc">Pc Games</li>
+        <li class="list" datafill="moblie">Mobile games</li>
+      </ul>
+      <div class="box_game">
+        <div class="card" datafill="pc">
+          <img src="./img/game1.jpg" alt="" />
+          <div class="card_text">
+            <h3>SADOW FIGHT II</h3>
+            <div class="line"><span></span></div>
+            <div class="info_card">
+              <p>Lorem ipsum dolor sit amet,</p>
+              <a class="button" href="#">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="pc">
+          <img src="./img/god.jpg" alt="" />
+          <div class="card_text">
+            <h3>GOD OF WAR</h3>
+            <div class="line"><span></span></div>
+            <div class="info_card">
+              <p>Lorem ipsum dolor sit amet,</p>
+              <a class="button" href="#">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="pc">
+          <img src="./img/sumser.jpg" alt="" />
+          <div class="card_text">
+            <h3>SUMSET GAME</h3>
+            <div class="line"><span></span></div>
+            <div class="info_card">
+              <p>Lorem ipsum dolor sit amet,</p>
+              <a class="button" href="#">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="pc">
+          <img src="./img/doom.webp" alt="" />
+          <div class="card_text">
+            <h3>DOOM</h3>
+            <div class="line"><span></span></div>
+            <div class="info_card">
+              <p>Lorem ipsum dolor sit amet,</p>
+              <a class="button" href="#">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="moblie">
+          <img src="./img/dishonored.jpg " alt="" />
+          <div class="card_text">
+            <h3>DISHONORED</h3>
+            <div class="line"><span></span></div>
+            <div class="info_card">
+              <p>Lorem ipsum dolor sit amet,</p>
+              <a class="button" href="#">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="moblie">
+          <img src="./img/sumon.jpg" alt="" />
+          <div class="card_text">
+            <h3>MINMON MASTERS</h3>
+            <div class="line"><span></span></div>
+            <div class="info_card">
+              <p>Lorem ipsum dolor sit amet,</p>
+              <a class="button" href="#">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="moblie">
+          <img src="./img/bloodbrone.jpg" alt="" />
+          <div class="card_text">
+            <h3>BLOOD BRONE</h3>
+            <div class="line"><span></span></div>
+            <div class="info_card">
+              <p>Lorem ipsum dolor sit amet,</p>
+              <a class="button" href="#">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="moblie">
+          <img src="./img/player.webp" alt="" />
+          <div class="card_text">
+            <h3>PLAYER</h3>
+            <div class="line"><span></span></div>
+            <div class="info_card">
+              <p>Lorem ipsum dolor sit amet,</p>
+              <a class="button" href="#">Detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Group Game -->
+    <div class="games anime_sroll" id="group">
+      <h2 style="margin-bottom: 115px">Group Game</h2>
+
+      <div class="box_game">
+        <div class="card" datafill="group">
+          <img src="./img/group/1630299142zC0IAZ9gmdVyQls.jpg" alt="" />
+          <div class="card_text">
+            <h3>Fun Game</h3>
+
+            <div class="info_card group">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat vero esse blanditiis,
+              </p>
+              <div class="join_game">
+                <a class="button" href="#">Detail</a>
+                <a class="button" href="#">Join</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="group">
+          <img
+            src="./img/group/5f22f5e0fb5eac89f3c7d91d452c53c4--game-poster-poster-art.jpg"
+            alt=""
+          />
+          <div class="card_text">
+            <h3>Pop Game</h3>
+
+            <div class="info_card group">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat vero esse blanditiis,
+              </p>
+              <div class="join_game">
+                <a class="button" href="#">Detail</a>
+                <a class="button" href="#">Join</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="group">
+          <img src="./img/group/group1.jpg!w700wp" alt="" />
+          <div class="card_text">
+            <h3>Group Game</h3>
+
+            <div class="info_card group">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat vero esse blanditiis,
+              </p>
+              <div class="join_game">
+                <a class="button" href="#">Detail</a>
+                <a class="button" href="#">Join</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="group">
+          <img src="./img/group/group2.png" alt="" />
+          <div class="card_text">
+            <h3>Fire Game</h3>
+
+            <div class="info_card group">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat vero esse blanditiis,,
+              </p>
+              <div class="join_game">
+                <a class="button" href="#">Detail</a>
+                <a class="button" href="#">Join</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="group">
+          <img src="./img/group/Rise-of-the-Kings.jpg" alt="" />
+          <div class="card_text">
+            <h3>Rise Of The King</h3>
+            <div class="info_card group">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat vero esse blanditiis,,
+              </p>
+              <div class="join_game">
+                <a class="button" href="#">Detail</a>
+                <a class="button" href="#">Join</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="group">
+          <img src="./img/group/see-the-hero-sports-.jpg!w700wp" alt="" />
+          <div class="card_text">
+            <h3>Hero</h3>
+            <div class="info_card group">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat vero esse blanditiis,
+              </p>
+              <div class="join_game">
+                <a class="button" href="#">Detail</a>
+                <a class="button" href="#">Join</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="group">
+          <img src="./img/group/star-wars.jpg" alt="" />
+          <div class="card_text">
+            <h3>Star Wars</h3>
+
+            <div class="info_card group">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat vero esse blanditiis,
+              </p>
+              <div class="join_game">
+                <a class="button" href="#">Detail</a>
+                <a class="button" href="#">Join</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" datafill="group">
+          <img src="./img/group/zelda.jpg" alt="" />
+          <div class="card_text">
+            <h3>Zelda</h3>
+            <div class="info_card group">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat vero esse blanditiis,
+              </p>
+              <div class="join_game">
+                <a class="button" href="#">Detail</a>
+                <a class="button" href="#">Join</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="contactBox anime_sroll" id="contactBx">
+      <h2>Contact</h2>
+      <div class="contact">
+        <div class="form">
+          <form action="" id="form1">
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Họ tên"
+            /><br />
+            <input
+              type="text"
+              id="femail"
+              name="femail"
+              placeholder="Địa chỉ Email"
+            /><br />
+            <input
+              type="text"
+              id="fcontent"
+              name="fcontent"
+              placeholder="Nội dung yêu cầu"
+            /><br />
+            <input type="submit" value="Gửi yêu cầu" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
